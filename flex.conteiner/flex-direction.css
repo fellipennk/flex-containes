@@ -1,0 +1,29 @@
+
+.conteiner{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid blueviolet;
+}
+/*Flex Item*/
+.item{
+    /*é necessario para cada item se expanda ocupando o tamanho maximo do container*/
+
+    flex: 1;
+    margin: 5px;
+    background: yellowgreen;
+    text-align: center;
+    font-size: 1.5em;
+}
+.row{
+    flex-direction: row;
+}
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.column{
+    flex-direction: column;
+}
+.column-reverse{
+flex-direction: column-reverse;
+}
